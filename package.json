@@ -1,0 +1,26 @@
+{
+  "name": "get-base-report-templates",
+  "version": "1.0.0",
+  "description": "AWS Lambda function for retrieving DynamoDB stored report templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "lambda-local --timeout 300 --lambda-path index.js --event-path event.json",
+    "bundle": "rm -f get-base-report-templates.zip ; zip get-base-report-templates.zip -r *.js *.json node_modules/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmcclung/get-base-report-templates.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmcclung/get-base-report-templates/issues"
+  },
+  "homepage": "https://github.com/dmcclung/get-base-report-templates#readme",
+  "dependencies": {
+    "aws-sdk": "^2.279.1"
+  },
+  "devDependencies": {
+    "lambda-local": "^1.5.1"
+  }
+}

@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/dmcclung/get-base-report-templates.git"
   },
-  "author": "",
+  "author": "Dylan McClung",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dmcclung/get-base-report-templates/issues"
